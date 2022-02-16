@@ -19,9 +19,9 @@ description: 友好的売却・譲渡希望企業の一般的な実務手順で�
             <li><a href="#">トップ会談から最終契約までの実務手順</a></li>
           </ul>
           <ul class="uk-switcher uk-margin">
-            <li><img src="/assets/images/business-transfer/ma-transfer.gif" alt="譲渡企業希望の手順"></li>
-            <li><img src="/assets/images/business-transfer/ma-acquisitions.gif" alt="買収企業希望の手順"></li>
-            <li><img src="/assets/images/business-transfer/ma-schedule.gif" alt="トップ会談から最終契約までの実務手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-transfer.gif" | absolute_url }}" alt="譲渡企業希望の手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-acquisitions.gif" | absolute_url }}" alt="買収企業希望の手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-schedule.gif" | absolute_url }}" alt="トップ会談から最終契約までの実務手順"></li>
           </ul>
         </div>
       </div>
@@ -55,14 +55,14 @@ description: 友好的売却・譲渡希望企業の一般的な実務手順で�
               </div>
             </li>
             <li>
-              <p>貴社へ資料の収集をお願いいたします。企業情報は企業評価(株価算定)や企業概要書を作成するために使います(<a href="/business-transfer/necessary-documents/">必要資料一覧</a>)。資料の提出と収集では秘密保持を厳重に注意いたします。外部への問い合わせはもちろんのこと、内部での資料収集でも万全を期します。慎重に進めますので不明な点はいつでもお問い合わせください。</p>
+              <p>貴社へ資料の収集をお願いいたします。企業情報は企業評価(株価算定)や企業概要書を作成するために使います(<a href="{{ "/business-transfer/necessary-documents/" | absolute_url }}">必要資料一覧</a>)。資料の提出と収集では秘密保持を厳重に注意いたします。外部への問い合わせはもちろんのこと、内部での資料収集でも万全を期します。慎重に進めますので不明な点はいつでもお問い合わせください。</p>
             </li>
             <li>
               <p>必要資料一覧は定量的な企業情報です。それだけで会社の全貌はわかりません。企業概要書の作成には定性情報(創業の経緯, 幹部社員の特性, 在庫の状態, 業界情報, 労働組合の有無と上部団体など)が必要不可欠です。</p>
               <div class="uk-grid-match uk-grid-small" uk-grid>
                 <div class="uk-panel uk-light uk-background-secondary uk-padding uk-width-1-3@m">
                   <p>企業評価</p>
-                  <p>企業評価(株価算定)は企業価値判断の参考とされます。弊社の標準的な企業価値方法(＝「JMAC(日本M&amp;Aセンター)方式による企業評価」)で評価いたします。次にオーナー社長のご希望や業界の特性を加味して、譲渡希望価格をすり合わせます。最終譲渡価格は相手先企業からの条件提示や買収監査の調査結果などを加味して、交渉の結果、決定されます。(MAリポート <a href="/blog/2011/06/02/kabukahyoka.html" uk-icon="icon: link">企業評価(株価評価)</a>)</p>
+                  <p>企業評価(株価算定)は企業価値判断の参考とされます。弊社の標準的な企業価値方法(＝「JMAC(日本M&amp;Aセンター)方式による企業評価」)で評価いたします。次にオーナー社長のご希望や業界の特性を加味して、譲渡希望価格をすり合わせます。最終譲渡価格は相手先企業からの条件提示や買収監査の調査結果などを加味して、交渉の結果、決定されます。(MAリポート <a href="{{ "/blog/2011/06/02/kabukahyoka.html" | absolute_url }}" uk-icon="icon: link">企業評価(株価評価)</a>)</p>
                 </div>
                 <div class="uk-panel uk-light uk-background-secondary uk-padding uk-width-1-3@m">
                   <p>企業調査</p>
