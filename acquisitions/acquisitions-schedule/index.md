@@ -15,12 +15,12 @@ description: 企業の買収・譲受における最終契約をご締結され�
           <ul class="uk-subnav uk-subnav-pill" uk-switcher>
             <li><a href="#">トップ会談から最終契約までの実務手順</a></li>
             <li><a href="#">買収企業希望の手順</a></li>
-            <li><a href="#">譲渡企業希望の手順</a></li>            
+            <li><a href="#">譲渡企業希望の手順</a></li>
           </ul>
           <ul class="uk-switcher uk-margin">
-            <li><img src="/assets/images/business-transfer/ma-schedule.gif" alt="トップ会談から最終契約までの実務手順"></li>
-            <li><img src="/assets/images/business-transfer/ma-acquisitions.gif" alt="買収企業希望の手順"></li>
-            <li><img src="/assets/images/business-transfer/ma-transfer.gif" alt="譲渡企業希望の手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-schedule.gif" | absolute_url }}" alt="トップ会談から最終契約までの実務手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-acquisitions.gif" | absolute_url }}" alt="買収企業希望の手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-transfer.gif" | absolute_url }}" alt="譲渡企業希望の手順"></li>
           </ul>
         </div>
       </div>
@@ -87,7 +87,7 @@ description: 企業の買収・譲受における最終契約をご締結され�
     <div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
       <div>
         <h3 class="uk-heading-bullet">弊社の成功報酬について</h3>
-        <p>詳細は<a href="/acquisitions/acquisitions-fee/">報酬表</a>をご覧ください。</p>
+        <p>詳細は<a href="{{ "/acquisitions/acquisitions-fee/" | absolute_url }}">報酬表</a>をご覧ください。</p>
       </div>
     </div>
   </div>

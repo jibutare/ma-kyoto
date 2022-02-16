@@ -8,28 +8,28 @@
   <div class="uk-navbar-right uk-navbar-dropbar">
     <ul class="uk-navbar-nav uk-visible@m">
       <li {% if page.url == "/business-transfer/" %} class="uk-active" {% endif %}>
-        <a href="/business-transfer/">企業の友好的売却・譲渡</a>
+        <a href="{{ "/business-transfer/" | absolute_url }}">企業の友好的売却・譲渡</a>
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
-            <li {% if page.url == "/business-transfer/transfer-schedule/" %} class="uk-active" {% endif %}><a href="/business-transfer/transfer-schedule/">トップ面談から最終契約まで</a></li>
-            <li {% if page.url == "/business-transfer/necessary-documents/" %} class="uk-active" {% endif %}><a href="/business-transfer/necessary-documents/">必要資料一覧</a></li>
-            <li {% if page.url == "/business-transfer/tranfer-fee/" %} class="uk-active" {% endif %}><a href="/business-transfer/tranfer-fee/">報酬表</a></li>
+            <li {% if page.url == "{{ "/business-transfer/transfer-schedule/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/business-transfer/transfer-schedule/" | absolute_url }}">トップ面談から最終契約まで</a></li>
+            <li {% if page.url == "{{ "/business-transfer/necessary-documents/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/business-transfer/necessary-documents/" | absolute_url }}">必要資料一覧</a></li>
+            <li {% if page.url == "{{ "/business-transfer/tranfer-fee/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/business-transfer/tranfer-fee/" | absolute_url }}">報酬表</a></li>
           </ul>
         </div>
       </li>
-      <li {% if page.url == "/acquisitions/" %} class="uk-active" {% endif %}>
-        <a href="/acquisitions/">企業の買収・譲受</a>
+      <li {% if page.url == "{{ "/acquisitions/" | absolute_url }}" %} class="uk-active" {% endif %}>
+        <a href="{{ "/acquisitions/" | absolute_url }}">企業の買収・譲受</a>
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
-            <li {% if page.url == "/acquisitions/acquisitions-schedule/" %} class="uk-active" {% endif %}><a href="/acquisitions/acquisitions-schedule/">トップ面談から最終契約まで</a></li>
-            <li {% if page.url == "/acquisitions/acquisitions-fee/" %} class="uk-active" {% endif %}><a href="/acquisitions/acquisitions-fee/">報酬表</a></li>
+            <li {% if page.url == "{{ "/acquisitions/acquisitions-schedule/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/acquisitions/acquisitions-schedule/" | absolute_url }}">トップ面談から最終契約まで</a></li>
+            <li {% if page.url == "{{ "/acquisitions/acquisitions-fee/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/acquisitions/acquisitions-fee/" | absolute_url }}">報酬表</a></li>
           </ul>
         </div>
       </li>
-      <li {% if page.url == "/support-system/" %} class="uk-active" {% endif %}><a href="/support-system/">支援体制</a></li>
-      <li {% if page.url == "/about/" %} class="uk-active" {% endif %}><a href="/about/">会社概要</a></li>
-      <li {% if page.url == "/blog/" %} class="uk-active" {% endif %}>
-        <a href="/blog/">MAリポート</a>
+      <li {% if page.url == "{{ "/support-system/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/support-system/" | absolute_url }}">支援体制</a></li>
+      <li {% if page.url == "{{ "/about/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/about/" | absolute_url }}">会社概要</a></li>
+      <li {% if page.url == "{{ "/blog/" | absolute_url }}" %} class="uk-active" {% endif %}>
+        <a href="{{ "/blog/" | absolute_url }}">MAリポート</a>
       </li>
     </ul>
     <a class="uk-navbar-toggle uk-hidden@m" href="#" uk-toggle="target: #offcanvas-reveal">
@@ -43,21 +43,21 @@
     <button class="uk-offcanvas-close" type="button" uk-close></button>
     <ul class="uk-nav uk-nav-default">
         <li class="uk-nav-header">友好的売却・譲渡</li>
-        <li {% if page.url == "/business-transfer/" %} class="uk-active" {% endif %}><a href="/business-transfer/">企業の友好的売却・譲渡</a></li>
-        <li {% if page.url == "/business-transfer/transfer-schedule/" %} class="uk-active" {% endif %}><a href="/business-transfer/transfer-schedule/">トップ面談から最終契約まで</a></li>
-        <li {% if page.url == "/business-transfer/necessary-documents/" %} class="uk-active" {% endif %}><a href="/business-transfer/necessary-documents/">必要資料一覧</a></li>
+        <li {% if page.url == "{{ "/business-transfer/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/business-transfer/" | absolute_url }}">企業の友好的売却・譲渡</a></li>
+        <li {% if page.url == "{{ "/business-transfer/transfer-schedule/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/business-transfer/transfer-schedule/" | absolute_url }}">トップ面談から最終契約まで</a></li>
+        <li {% if page.url == "{{ "/business-transfer/necessary-documents/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="/business-transfer/necessary-documents/">必要資料一覧</a></li>
         <li {% if page.url == "/business-transfer/tranfer-fee/" %} class="uk-active" {% endif %}><a href="/business-transfer/tranfer-fee/">報酬表</a></li>
         <li class="uk-nav-divider"></li>
         <li class="uk-nav-header">買収・譲受</li>
-        <li {% if page.url == "/acquisitions/" %} class="uk-active" {% endif %}><a href="/acquisitions/">企業の買収・譲受</a></li>
-        <li {% if page.url == "/acquisitions/acquisitions-schedule/" %} class="uk-active" {% endif %}><a href="/acquisitions/acquisitions-schedule/">トップ面談から最終契約まで</a></li>
-        <li {% if page.url == "/acquisitions/acquisitions-fee/" %} class="uk-active" {% endif %}><a href="/acquisitions/acquisitions-fee/">報酬表</a></li>
+        <li {% if page.url == "{{ "/acquisitions/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/acquisitions/" | absolute_url }}">企業の買収・譲受</a></li>
+        <li {% if page.url == "{{ "/acquisitions/acquisitions-schedule/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/acquisitions/acquisitions-schedule/" | absolute_url }}">トップ面談から最終契約まで</a></li>
+        <li {% if page.url == "{{ "/acquisitions/acquisitions-fee/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/acquisitions/acquisitions-fee/" | absolute_url }}">報酬表</a></li>
         <li class="uk-nav-divider"></li>
-        <li {% if page.url == "/support-system/" %} class="uk-active" {% endif %}><a href="/support-system/">支援体制</a></li>
-        <li {% if page.url == "/about/" %} class="uk-active" {% endif %}><a href="/about/">企業情報</a></li>
+        <li {% if page.url == "{{ "/support-system/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/support-system/" | absolute_url }}">支援体制</a></li>
+        <li {% if page.url == "{{ "/about/" | absolute_url }}" %} class="uk-active" {% endif %}><a href="{{ "/about/" | absolute_url }}">企業情報</a></li>
         <li class="uk-nav-divider"></li>
-        <li {% if page.url == "/blog/" %} class="uk-active" {% endif %}>
-          <a href="/blog/">MAリポート</a>
+        <li {% if page.url == "{{ "/blog/" | absolute_url }}" %} class="uk-active" {% endif %}>
+          <a href="{{ "/blog/" | absolute_url }}">MAリポート</a>
         </li>
     </ul>
   </div>

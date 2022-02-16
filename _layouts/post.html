@@ -8,6 +8,6 @@ layout: default
   <div class="uk-container uk-container-xsmall">
     <p class="uk-text-meta">{{ page.date | date: "%Y年%m月%d日" }}</p>
     {{ content }}
-    <p class="uk-text-center uk-margin-large-top"><a class="uk-button uk-button-default" href="/blog">リポートの一覧へ戻る <span uk-icon="icon: arrow-right"></span></a></p>
+    <p class="uk-text-center uk-margin-large-top"><a class="uk-button uk-button-default" href="{{ "/blog" | absolute_url }}">リポートの一覧へ戻る <span uk-icon="icon: arrow-right"></span></a></p>
   </div>
 </div>

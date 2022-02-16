@@ -14,13 +14,13 @@ description: 買収希望企業の一般的な実務手順です(特殊な事情
         <div class="uk-width-expand@m">
           <ul class="uk-subnav uk-subnav-pill" uk-switcher>
             <li><a href="#">買収企業希望の手順</a></li>
-            <li><a href="#">譲渡企業希望の手順</a></li>          
+            <li><a href="#">譲渡企業希望の手順</a></li>
             <li><a href="#">トップ会談から最終契約までの実務手順</a></li>
           </ul>
           <ul class="uk-switcher uk-margin">
-            <li><img src="/assets/images/business-transfer/ma-acquisitions.gif" alt="買収企業希望の手順"></li>
-            <li><img src="/assets/images/business-transfer/ma-transfer.gif" alt="譲渡企業希望の手順"></li>          
-            <li><img src="/assets/images/business-transfer/ma-schedule.gif" alt="トップ会談から最終契約までの実務手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-acquisitions.gif" | absolute_url }}" alt="買収企業希望の手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-transfer.gif" | absolute_url }}" alt="譲渡企業希望の手順"></li>
+            <li><img src="{{ "/assets/images/business-transfer/ma-schedule.gif" | absolute_url }}" alt="トップ会談から最終契約までの実務手順"></li>
           </ul>
         </div>
       </div>
@@ -57,7 +57,7 @@ description: 買収希望企業の一般的な実務手順です(特殊な事情
               <p>提案書(譲渡企業の企業概要書)を十分にご理解いただき、M&amp;A交渉の開始を決定されましたら、『提携仲介契約』を締結いただきます。この時点で情報提供のお支払いが発生します。</p>
             </li>
             <li>
-              <p>『提携仲介契約』をご締結いただき情報提供料のお支払いが完了しましたら、M＆Aのご検討に必要な具体的資料を提供いたします。またご質問を承ります。(MAリポート: <a href="/blog/2011/06/20/irrespective-of-the-details.html" uk-icon="icon: link">最初は細部にこだわらず</a>)</p>
+              <p>『提携仲介契約』をご締結いただき情報提供料のお支払いが完了しましたら、M＆Aのご検討に必要な具体的資料を提供いたします。またご質問を承ります。(MAリポート: <a href="{{ "/blog/2011/06/20/irrespective-of-the-details.html" | absolute_url }}" uk-icon="icon: link">最初は細部にこだわらず</a>)</p>
               <div class="uk-grid-match uk-grid-small" uk-grid>
                 <div class="uk-panel uk-light uk-background-secondary uk-padding uk-width-1-2@m">
                   <p>貴社の事業内容開示</p>
