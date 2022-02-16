@@ -26,7 +26,7 @@
           </ul>
         </div>
       </li>
-      <li {% if page.url == {{ '/support-system/' | absolute_url }} %} class="uk-active" {% endif %}><a href="{{ '/support-system/' | absolute_url }}">支援体制</a></li>
+      <li {% if page.url == "{{ '/support-system/' | absolute_url }} %}" class="uk-active" {% endif %}><a href="{{ '/support-system/' | absolute_url }}">支援体制 -</a></li>
       <li {% if page.url == {{ '/about/' | absolute_url }} %} class="uk-active" {% endif %}><a href="{{ '/about/' | absolute_url }}">会社概要</a></li>
       <li {% if page.url == {{ '/blog/' | absolute_url }} %} class="uk-active" {% endif %}>
         <a href="{{ '/blog/' | absolute_url }}">MAリポート</a>
