@@ -22,8 +22,8 @@ title: 株式会社中小企業M&amp;Aサービス
 email: info@ma-kyoto.co.jp
 description: >- # this means to ignore newlines until "baseurl:"
   中堅・中小企業の友好的M&A支援に特化しています。中堅・中小企業にM&Aは必要ない? メディアは大型金融機関の合併や保険会社の業務提携、大手ライバル企業の株式取得などを報じます。一方で大手と異なる背景を持つ中堅・中小企業のM&Aは増加しています。年商や社員数は関係ありません。
-baseurl: "ma-kyoto" # the subpath of your site, e.g. /blog
-url: "https://jibutare.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/ma-kyoto" # the subpath of your site, e.g. /blog
+url: "https://jibutare.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
   sass_dir: _sass
   style: compressed
