@@ -19,9 +19,9 @@ description: 友好的売却・譲渡希望企業の一般的な実務手順で�
             <li><a href="#">トップ会談から最終契約までの実務手順</a></li>
           </ul>
           <ul class="uk-switcher uk-margin">
-            <li><img src="{{ "/assets/images/business-transfer/ma-transfer.gif" | absolute_url }}" alt="譲渡企業希望の手順"></li>
-            <li><img src="{{ "/assets/images/business-transfer/ma-acquisitions.gif" | absolute_url }}" alt="買収企業希望の手順"></li>
-            <li><img src="{{ "/assets/images/business-transfer/ma-schedule.gif" | absolute_url }}" alt="トップ会談から最終契約までの実務手順"></li>
+            <li><img src="{{ '/assets/images/business-transfer/ma-transfer.gif' | absolute_url }}" alt="譲渡企業希望の手順"></li>
+            <li><img src="{{ '/assets/images/business-transfer/ma-acquisitions.gif' | absolute_url }}" alt="買収企業希望の手順"></li>
+            <li><img src="{{ '/assets/images/business-transfer/ma-schedule.gif' | absolute_url }}" alt="トップ会談から最終契約までの実務手順"></li>
           </ul>
         </div>
       </div>
