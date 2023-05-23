@@ -24,7 +24,7 @@
             </div>
           </li>
           <li {% if page.url=="/acquisitions/" %} class="uk-active" {% endif %}>
-            <a href="{{ " /acquisitions/" | absolute_url }}">企業の買収・譲受</a>
+            <a href="{{ '/acquisitions/' | absolute_url }}">企業の買収・譲受</a>
             <div class="uk-navbar-dropdown">
               <ul class="uk-nav uk-navbar-dropdown-nav">
                 <li {% if page.url=="/acquisitions/acquisitions-schedule/" %} class="uk-active" {% endif %}><a
@@ -46,7 +46,6 @@
         <a class="uk-navbar-toggle uk-hidden@m" href="#" uk-toggle="target: #offcanvas-reveal">
           <span uk-navbar-toggle-icon></span>
         </a>
-
       </div>
     </div>
   </div>
@@ -56,7 +55,7 @@
     <button class="uk-offcanvas-close" type="button" uk-close></button>
     <ul class="uk-nav uk-nav-default">
       <li class="uk-nav-header">友好的売却・譲渡</li>
-      <li {% if page.url=="/business-transfer/" %} class="uk-active" {% endif %}><a
+      <li {% if page.url=='/business-transfer/' %} class="uk-active" {% endif %}><a
           href="{{ '/business-transfer/' | absolute_url }}">企業の友好的売却・譲渡</a></li>
       <li {% if page.url=="/business-transfer/transfer-schedule/" %} class="uk-active" {% endif %}><a
           href="{{ '/business-transfer/transfer-schedule/' | absolute_url }}">トップ面談から最終契約まで</a></li>
