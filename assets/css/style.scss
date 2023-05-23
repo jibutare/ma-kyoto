@@ -15,10 +15,27 @@ $global-warning-background: #f9a825;
 
 // 3. Your custom mixin overwrites.
 
-@mixin hook-button() { -webkit-border-radius: 500px; -moz-border-radius: 500px; border-radius: 500px; }
+@mixin hook-button() {
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  border-radius: 500px;
+}
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";
 
-h1, h2, h3, h4, h5, h6 { color: #37474f; font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 300; }
-.uk-logo { color: #00695c; font-family: 'M PLUS Rounded 1c', sans-serif; font-weight: 400; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #37474f;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 300;
+}
+.uk-logo {
+  color: #00695c;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+}

@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-<div class="uk-section uk-background-primary uk-light uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-text-center uk-padding-large">
+<div
+  class="uk-section uk-background-primary uk-light uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-text-center uk-padding-large">
   <h1>{{ page.title }}</h1>
 </div>
 <div class="uk-section">
   <div class="uk-container uk-container-xsmall">
     <p class="uk-text-meta">{{ page.date | date: "%Y年%m月%d日" }}</p>
     {{ content }}
-    <p class="uk-text-center uk-margin-large-top"><a class="uk-button uk-button-default" href="{{ "/blog" | absolute_url }}">リポートの一覧へ戻る <span uk-icon="icon: arrow-right"></span></a></p>
+    <p class="uk-text-center uk-margin-large-top"><a class="uk-button uk-button-default"
+        href="{{ '/blog' | absolute_url }}">関連レポート&amp;情報の一覧へ戻る <span uk-icon="icon: arrow-right"></span></a></p>
   </div>
 </div>
